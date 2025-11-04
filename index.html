@@ -1,0 +1,60 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width,initial-scale=1" />
+  <title>SmartShop — Home</title>
+  <script src="https://cdn.tailwindcss.com"></script>
+  <link rel="stylesheet" href="assets/css/style.css" />
+</head>
+<body>
+  <header id="site-header"></header>
+
+  <main class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 py-12 space-y-16">
+    <!-- Enhanced banner with better styling and controls -->
+    <section id="home-banner" class="relative overflow-hidden rounded-2xl">
+      <div id="banner" class="flex transition-transform duration-500">
+        <img src="https://fakestoreapi.com/img/61sbMiUnoGL._AC_UL640_QL65_ML3_t.png" class="w-full h-100 object-cover" alt="banner1"/>
+        <img src="https://fakestoreapi.com/img/71pWzhdJNwL._AC_UL640_QL65_ML3_t.png" class="w-full h-100 object-cover" alt="banner2"/>
+        <img src="https://fakestoreapi.com/img/81fPKd-2AYL._AC_SL1500_t.png" class="w-full h-100 object-cover" alt="banner3"/>
+      </div>
+      <!-- Improved button styling -->
+      <button id="prevBanner" class="banner-btn absolute left-4 top-1/2 -translate-y-1/2">
+        <svg class="w-5 h-5" fill="none" stroke="currentColor" viewBox="0 0 24 24"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M15 19l-7-7 7-7"/></svg>
+      </button>
+      <button id="nextBanner" class="banner-btn absolute right-4 top-1/2 -translate-y-1/2">
+        <svg class="w-5 h-5" fill="none" stroke="currentColor" viewBox="0 0 24 24"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M9 5l7 7-7 7"/></svg>
+      </button>
+    </section>
+
+    <!-- Enhanced featured products section -->
+    <section>
+      <div class="flex items-center justify-between mb-8">
+        <div>
+          <h2 class="text-3xl font-bold">Featured Products</h2>
+          <p class="text-gray-600 mt-2">Discover our handpicked selection</p>
+        </div>
+        <a href="products.html" class="btn-primary px-6 py-3">View all →</a>
+      </div>
+      <div id="featured-grid" class="grid grid-cols-1 sm:grid-cols-2 md:grid-cols-3 lg:grid-cols-4 gap-6"></div>
+    </section>
+
+    <!-- Enhanced about section with better styling -->
+    <section class="card bg-gradient-to-br from-slate-900 to-slate-800 text-white">
+      <h3 class="text-2xl font-bold mb-3">About SmartShop</h3>
+      <p class="text-slate-200 leading-relaxed">Experience modern e-commerce at its finest. SmartShop is a sophisticated, responsive platform built with cutting-edge web technologies to deliver an exceptional shopping experience.</p>
+      <div class="mt-6 flex gap-4">
+        <a href="products.html" class="btn-secondary bg-white/10 hover:bg-white/20 text-white border-white">Shop Now</a>
+      </div>
+    </section>
+  </main>
+
+  <footer id="site-footer"></footer>
+
+  <script src="assets/js/utils.js"></script>
+  <script src="assets/js/main.js"></script>
+  <script src="assets/js/products.js"></script>
+  <script src="assets/js/cart-module.js"></script>
+  <script src="assets/js/product.js"></script>
+</body>
+</html>
