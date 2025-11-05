@@ -1,0 +1,26 @@
+[
+  {
+    "name": "Ayesha",
+    "comment": "Great product, fast delivery!",
+    "rating": 5,
+    "date": "2025-09-12"
+  },
+  {
+    "name": "Rafi",
+    "comment": "Quality matches description.",
+    "rating": 4,
+    "date": "2025-10-02"
+  },
+  {
+    "name": "Salma",
+    "comment": "Good support and refund policy.",
+    "rating": 5,
+    "date": "2025-08-21"
+  },
+  {
+    "name": "Imran",
+    "comment": "Decent for the price.",
+    "rating": 4,
+    "date": "2025-07-15"
+  }
+]
